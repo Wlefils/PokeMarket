@@ -25,7 +25,9 @@ I was able to realize approximately 91% of the expected value per card. The 9% w
 ## Project Report
 
 ### Data Collection and Management
-The first step was to take stock of all the parameters involved in the project. I examined all of my cards and took note of the variables by which I could categorize them: the card set, their specific set number, the name of the card, which Pokémon was featured on the card, the type of card (e.g., Pokémon, Trainer, Energy, etc.), the card’s rarity, the finish (e.g., Holographic, Reverse Holographic, Regular), whether it was a first edition card, and what condition each card was in. Additionally, I wanted to have a ballpark estimate for what each card was worth. To do this, I browsed current eBay listings and sites like … and averaged several recent sales prices for each card to estimate value. This process was a time-consuming endeavor, as I had to carefully look through every card in my collection and input the data into an Excel spreadsheet.
+![image](https://github.com/Wlefils/PokemonCardSales/assets/98787088/113015b4-7eb8-4830-8b39-63b83f42b19e)
+
+The first step was to take stock of all the parameters involved in the project. I examined all of my cards and took note of the variables by which I could categorize them: the card set, their specific set number, the name of the card, which Pokémon was featured on the card, the type of card (e.g., Pokémon, Trainer, Energy, etc.), the card’s rarity, the finish (e.g., Holographic, Reverse Holographic, Regular), whether it was a first edition card, and what condition each card was in. Additionally, I wanted to have a ballpark estimate for what each card was worth. To do this, I browsed current eBay listings and sites like TCG Player (as seen in the above image) and averaged several recent sales prices for each card to estimate value. This process was a time-consuming endeavor, as I had to carefully look through every card in my collection and input the data into an Excel spreadsheet.
 
 ![image](https://github.com/Wlefils/PokemonCardSales/assets/98787088/e0543bc5-19e3-4f14-a38c-e9c2e32d4d84)
 
@@ -262,7 +264,7 @@ SET card_set = 'EX Team Rocket Returns'
 WHERE card_set = 'Team Rocket Returns EX';
 ```
 
-For the sake of relative brevity, I won't include every query on this page. To view all of the queries I wrote for this project, please click **here**. I later used all the information retrieved by these queries to create my Tableau visualizations, which can be found [here](https://public.tableau.com/views/PokemonCardsProject/CardDashboard?:language=en-US&:display_count=n&:origin=viz_share_link).
+For the sake of relative brevity, I won't include every query on this page. To view all of the queries I wrote for this project, please click [here](https://github.com/Wlefils/PokemonCardSales/blob/main/Pokemon%20Cards%20Database%20Queries.sql). I later used all the information retrieved by these queries to create my Tableau visualizations, which can be found [here](https://public.tableau.com/views/PokemonCardsProject/CardDashboard?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 ### Data Visualization
 After exploring and wrangling the data with SQL queries, I exported the most poignant results into Excel. I then imported these Excel files into Tableau to create visualizations. I wanted to understand the most important details in the data, and to figure out the best method to communicate my findings clearly and concisely.
@@ -329,3 +331,10 @@ Two distinct limitations permeated the entire project:
 
 #### Final Thoughts
 This project was a very enriching, rewarding endeavor for me. I was able to merge a childhood hobby as well as my professional career goals and generate income while doing so. This project illustrates the potential of data-driven decision-making in optimizing and understanding niche markets The detailed analysis unveiled some intriguing patterns and valuable insights, as well as providing an opportunity for me to put my technical skills into practice while I was looking for work.
+
+#### External Links
+* [Complete collection of SQL queries used for this project](https://github.com/Wlefils/PokemonCardSales/blob/main/Pokemon%20Cards%20Database%20Queries.sql)
+* [Tableau Dashboard](https://public.tableau.com/app/profile/william.lefils/viz/PokemonCardsProject/CardDashboard)
+* [LinkedIn](https://www.linkedin.com/in/will-lefils-57b838132/)
+* Resume
+* [Portfolio Homepage](https://wlefils.github.io/)
