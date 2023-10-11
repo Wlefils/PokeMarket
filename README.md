@@ -11,7 +11,7 @@ When I found myself in between jobs and needing some extra cash, I recalled my p
 
 [Interactive Tableau Dashboard Here](https://public.tableau.com/views/PokemonCardsProject/CardDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-![image](https://github.com/Wlefils/PokemonCardSales/assets/98787088/437da09d-3c7a-4d60-8cca-3a88ef89c9bd)
+![image](https://github.com/Wlefils/PokeMarket/assets/98787088/5fb58470-0f71-4246-80b7-efb6f75121b3)
 
 #### Geographical Insights
 I found a pronounced geographical trend regarding bidding locations. No bids originated from the Northwestern United States, rather, bids were concentrated in the Eastern and Northeastern U.S. This is despite the fact that I live in California and offered international shipping as an option on all listings.
@@ -284,24 +284,28 @@ The data I’d collected contained information across several dimensions: date, 
 As I had information about each bidder’s location, including both city and state, I was able to create a simple table containing the number of bids from each state. 
 This table, while informative, doesn’t give a great sense of geographic location at a glance. I decided to visualize this data using a Tableau map visualization to better contextualize my customer’s locations relative to each other. This also made it very easy to quickly identify locations where I didn’t receive any bids, unlike the table.
 
-![image](https://github.com/Wlefils/PokemonCardSales/assets/98787088/32f18a76-622b-4f34-b5b8-822469ba7286)
+![image](https://github.com/Wlefils/PokeMarket/assets/98787088/10ae47fa-da0c-42ec-bdf9-7f66b0076423)
 
 This map demonstrates that the majority of bids were placed by customers in the North and particularly in the Northeastern United States. New Jersey stands out as having nearly 20% of the total number of bids, with Ohio and Florida also receiving several bids. Note that these bid counts do not represent unique bidders, therefore a bid war between two individuals would drive up the bid count for their respective locations quickly. While I did offer international shipping, I only received one bid from outside the United States, from Ontario. The combination of the table and the map sufficiently answered my first question: **my customers are located in the United States, primarily in the North and Northeastern region.**
 
 #### Day of the Week and Time of Day
 I was also quite curious about the temporal patterns regarding my Pokémon card auctions. I analyzed the day of the week and time of day for both bids and page views to try to see any apparent trends. The first aspect I examined here was the day of the week:
 
-![image](https://github.com/Wlefils/PokemonCardSales/assets/98787088/c7083279-3102-42d7-800b-8353b5cb475d)
+
+![image](https://github.com/Wlefils/PokeMarket/assets/98787088/76cfd0ae-b2aa-49f7-bab8-4990fb12cd64)
+
 
 **Friday and Saturday alone accounted for nearly 57% of the total bids. I received 0 bids on Monday.** This information was quite surprising to me. I hypothesized that I would get the most bids on the days that I posted my auctions, as the listing would be new and attract more attention. However, I posted the majority of my listings on Wednesdays as 10-day auctions. This meant that most of my listings would be listed for two unique Wednesday, Thursday, and Friday, but only one Saturday, Sunday, Monday, and Tuesday. Therefore it is particularly interesting to note that Saturday received the second-greatest number of bids despite most listings only being active for one Saturday. I couldn't draw any firm conclusions by just looking at the bidding information, however. I decided to examine the page views as well.
 
-![image](https://github.com/Wlefils/PokemonCardSales/assets/98787088/fe15210b-debf-4042-958f-587c31fc5cec)
+![image](https://github.com/Wlefils/PokeMarket/assets/98787088/43325d56-c845-4aeb-8310-71bee73f79b8)
+
 
 The above bar chart shows the total number of page views based on the day an auction was listed. It does not reveal the day a view was received; eBay does not provide a breakdown of that information, and I did not collect it manually, although that would be an excellent avenue of further exploration. However, this information is still useful. It shows that **listings I posted on Tuesday and Wednesday received the greatest average views and perhaps just as importantly, the greatest average views**. While 16 of my 26 listings (over 61%) were on Wednesday and combined to total over 51% of my total page views, only 3 of my listings were posted on Tuesday, accounting for over 30% of total page views. 
 
 My hypothesis is that the listings posted on Tuesday received the highest average page views for two reasons: first, the specific cards that were listed on Tuesday were more popular, higher value cards, and attracted more collector attention. Secondly, however, is that these auctions received page views from two Fridays and two Saturdays, unlike the Wednesday listings that were only active for two Fridays and one Saturday. While I don't know for certain that a high percentage of page views are received on Saturday, I hypothesize that the higher number of bids received on Saturday would also correlate with page views. While auctions posted on Thursday received the lowest number of page views, note that I only posted one auction on a Thursday, and it was a card that wasn't particularly valuable or in high demand. The sample size isn't big enough to draw a firm conclusion on Thursday's viability. **I hypothesize that it would be best to ensure future listings are active during both Friday and Saturday. For my 10-day auctions, listing on Wednesday or Thursday would ensure my auctions were active during two of each of these days.**
 
-![image](https://github.com/Wlefils/PokemonCardSales/assets/98787088/3e83650b-de86-4500-a511-ce254a154943)
+![image](https://github.com/Wlefils/PokeMarket/assets/98787088/f4ea4794-7ad5-4213-bb48-8d967af869f0)
+
 
 As the above line chart indicates, most bids were placed between 5:00PM and 9:00PM PST, with the plurality being between 5:30PM and 6:30PM, followed by 7:30PM-8:00PM. Adjusting these times to EST, where the majority of bids were placed, shifts them to 8:00 PM to 12:00 AM EST, with **the highest bidding density occurring between 8:30PM and 9:30PM EST**. This makes intuitive sense, as this timing captures standard after-work hours of all time zones in the United States, but before many adults go to sleep.
 
