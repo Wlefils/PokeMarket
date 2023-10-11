@@ -336,5 +336,5 @@ This project was a very enriching, rewarding endeavor for me. I was able to merg
 * [Complete collection of SQL queries used for this project](https://github.com/Wlefils/PokemonCardSales/blob/main/Pokemon%20Cards%20Database%20Queries.sql)
 * [Tableau Dashboard](https://public.tableau.com/app/profile/william.lefils/viz/PokemonCardsProject/CardDashboard)
 * [LinkedIn](https://www.linkedin.com/in/will-lefils-57b838132/)
-* Resume
+* [Resume](https://wlefils.github.io/Will%20LeFils%20Resume.pdf)
 * [Portfolio Homepage](https://wlefils.github.io/)
